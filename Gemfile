@@ -2,7 +2,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'cocoapods'
+gem 'cocoapods', '>= 1.11.0'
 gem 'xcode-install'
 gem 'fastlane'
 gem 'danger-gitlab'
