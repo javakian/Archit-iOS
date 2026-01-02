@@ -5,7 +5,7 @@ gem 'rake'
 gem 'cocoapods'
 gem 'xcode-install'
 gem 'fastlane'
-gem 'danger-gitlab'
+gem 'danger-gitlab', '>= 7.0.0'
 gem 'danger-swiftlint'
 
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
